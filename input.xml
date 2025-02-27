@@ -1,0 +1,31 @@
+<AvailRQ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<timeoutMilliseconds>25000</timeoutMilliseconds>
+<source>
+<languageCode>en</languageCode>
+</source>
+<optionsQuota>20</optionsQuota>
+<Configuration>
+<Parameters>
+<Parameter password="XXXXXXXXXX" username="YYYYYYYYY"
+CompanyID="123456"/>
+</Parameters>
+</Configuration>
+<SearchType>Multiple</SearchType>
+<StartDate>14/10/2025</StartDate>
+<EndDate>18/10/2025</EndDate>
+<Currency>USD</Currency>
+<Nationality>US</Nationality>
+<Paxes>
+<pax name='abcd' age='35'/>
+<pax name='xyz' age='5'/>
+</Paxes>
+<Paxes>
+<pax name='efgh' age='35'/>
+<pax name='uvwx' age='3'/>
+</Paxes>
+<Paxes>
+<pax name='ijkl' age='35'/>
+<pax name='qrst' age='6'/>
+</Paxes>
+</AvailRQ>
